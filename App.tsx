@@ -7,7 +7,6 @@
 
 import React from 'react';
 import {
-  FlatList,
   SafeAreaView,
   StatusBar,
   Text,
@@ -151,7 +150,7 @@ function App(): React.JSX.Element {
       </View>
 
       <View className="bg-gray-50 mb-0.5" style={{height: '93%'}}>
-        <FlatList
+        {/* <FlatList
           data={quranChapters}
           keyExtractor={(item, index) => index.toString()}
           renderItem={({item}) => (
@@ -159,7 +158,7 @@ function App(): React.JSX.Element {
               <Text className="text-lg">{item}</Text>
             </View>
           )}
-        />
+        /> */}
       </View>
     </SafeAreaView>
   );
